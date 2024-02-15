@@ -1,13 +1,5 @@
-#header-container {
+.header-container {
   border: 2px solid blue;
-}
-
-.logo {
-  border: 2px solid red;
-}
-
-.recherche-input {
-  border: 2px solid green;
 }
 
 /*# sourceMappingURL=style.css.map */
