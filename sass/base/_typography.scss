@@ -2,5 +2,13 @@
 // Basic typography style for copy text
 //---------------------------------------------------------
 
+// Typographie de base
+body {
+    font-family: $font-family-text;
+}
+
+h1, h2, h3 {
+    font-family: $font-family-title;
+}
 
 

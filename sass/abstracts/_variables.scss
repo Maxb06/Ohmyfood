@@ -2,3 +2,27 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 
+
+// Polices du site
+$font-family-title: 'Shrikhand', sans-serif;
+$font-family-text: 'Roboto', sans-serif;
+
+
+// Effets graphiques et animations
+$color-primary: #9356DC;
+$color-secondary: #FF79DA;
+$color-tertiary: #99E2D0;
+
+
+// Couleurs de background du site
+/// white
+$background-color: #FFFFFF;
+
+/// Light grey
+$section-color: #F6F6F6;
+
+/// Medium grey
+$header-color: #EAEAEA;
+
+/// Dark grey
+$footer-color: #353535;

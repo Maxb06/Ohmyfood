@@ -1,3 +1,17 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Shrikhand", sans-serif;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1440px;
+  box-sizing: border-box;
+}
+
 .header-container {
   border: 2px solid blue;
 }
