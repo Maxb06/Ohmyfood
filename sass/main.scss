@@ -1,6 +1,26 @@
 @charset "UTF-8";
 
-
-// 4. Layout-related sections
+// 1. Configuration and helpers
 @import
-  'layout/header';
+  'abstracts/variables',
+  'abstracts/mixins';
+
+// 2. Base stuff
+@import
+  'base/base',
+  'base/typography';
+
+// 3. Layout-related sections
+@import
+  'layout/header',
+  'layout/footer';
+
+// 4. Components
+@import
+  'components/button',
+  'components/heart';
+
+// 5. Page-specific styles
+@import
+  'pages/home',
+  'pages/menu';
