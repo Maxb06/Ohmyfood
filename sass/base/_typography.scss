@@ -2,8 +2,7 @@
 // Basic typography style for copy text
 //---------------------------------------------------------
 
-// Typographie de base
-body {
+* {
     font-family: $font-family-text;
 }
 
@@ -11,5 +10,4 @@ body {
     font-family: $font-family-title;
     font-style: $font-style-italic;
 }
-
 
