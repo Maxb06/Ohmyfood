@@ -4,25 +4,31 @@
 
 
 // Polices du site
-$font-family-title: 'Shrikhand', sans-serif;
-$font-family-text: 'Roboto', sans-serif;
+$font-family-title: 'Shrikhand', cursive, sans-serif !default;
+$font-family-text: 'Roboto', sans-serif !default;
+
+$font-style-italic: italic;
 
 
 // Effets graphiques et animations
-$color-primary: #9356DC;
-$color-secondary: #FF79DA;
-$color-tertiary: #99E2D0;
-
+$color-primary: #9356DC !default;
+$color-secondary: #FF79DA !default;
+$color-tertiary: #99E2D0 !default;
 
 // Couleurs de background du site
 /// white
-$background-color: #FFFFFF;
+$background-color: #FFFFFF !default;
 
 /// Light grey
-$section-color: #F6F6F6;
+$section-color: #F6F6F6 !default;
 
 /// Medium grey
-$header-color: #EAEAEA;
+$header-color: #EAEAEA !default;
 
 /// Dark grey
-$footer-color: #353535;
+$footer-color: #353535 !default;
+
+
+// Main container's maximum width
+/// @type Length
+$max-width: 1440px !default;

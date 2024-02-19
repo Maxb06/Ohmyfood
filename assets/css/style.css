@@ -1,19 +1,44 @@
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-h1, h2, h3 {
-  font-family: "Shrikhand", sans-serif;
+html {
+  box-sizing: border-box;
 }
 
 .main-container {
   width: 100%;
   max-width: 1440px;
-  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-title {
+  font-family: "Shrikhand", cursive, sans-serif;
+  font-style: italic;
 }
 
 .header-container {
-  border: 2px solid blue;
+  height: 113px;
+}
+
+.logo {
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 197px;
+  height: 36px;
+}
+
+.location-input {
+  height: 50px;
+  background-color: #EAEAEA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
 }
 
 /*# sourceMappingURL=style.css.map */
