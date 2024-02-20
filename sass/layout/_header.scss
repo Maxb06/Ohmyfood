@@ -3,33 +3,13 @@
 // -----------------------------------------------------------------------------
 
 .header-container {
-    height: 113px;
-}
-
-.logo {
     height: 63px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-    img {
-    width: 197px;
-    height: 36px;
-    }
+    align-items: center; 
 }
 
-.location-input {
-    height: 50px;
-    background-color: $header-color;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    input[type="text"] {
-        background-color: $header-color;
-        border: none;
-        font-size: 16px;
-        font-weight: 500;
-    }
+.logo img {
+    width: 162px;
 }
 

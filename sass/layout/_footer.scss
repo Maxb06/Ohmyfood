@@ -2,3 +2,32 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 
+.footer-section {
+    background-color: $footer-color;
+    padding: 22px 25px;
+}
+
+.font-title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-list {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    .footer-content a {
+        color: #ffffff;
+        i {
+            margin-right: 11px;
+        }
+    }
+}
+
+.footer-list-content a {
+    color: #ffffff;
+}
