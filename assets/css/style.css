@@ -103,6 +103,7 @@ h4 {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 57px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
 }
 
 .hero-location {
@@ -214,6 +215,7 @@ h4 {
 .card {
   width: 100%;
   position: relative;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
 }
 .card img {
   width: 100%;
