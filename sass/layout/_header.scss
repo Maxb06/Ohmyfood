@@ -6,10 +6,19 @@
     height: 63px;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+
+    i {
+        position: absolute;
+        left: 5%;
+        top: 30%;
+        font-size: 1.5rem;
+        color: black;
+    }
 }
 
 .logo img {
-    width: 162px;
+    width: 43.2%;
 }
-

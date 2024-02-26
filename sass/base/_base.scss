@@ -5,7 +5,7 @@
 
 // Set up a decent box model on the root element
  
- html {
+html {
     box-sizing: border-box;
   }
   
@@ -22,10 +22,8 @@ body {
     margin: 0 auto;
 }
 
-// Main content containers
-
+// Main content container
 .main-container {
-    //max-width: $max-width; ---- voir si conserver largeur maxi ----
     width: 100%;
 }
 
@@ -56,4 +54,3 @@ h3 {
 h4 {
     font-size: 18px;
 }
-
