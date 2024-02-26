@@ -88,3 +88,36 @@
         width: 186px;
     }
 }
+
+//RESPONSIVE DESKTOP
+
+@include respond-to('large') {
+    .restaurant-menu {
+       width: 73.27%;
+       display: flex;
+       flex-direction: column;
+       margin: 0 auto;
+       position: relative;
+       margin-top: -50px;
+
+       article {
+        width: 62.5%;
+        margin: 0 auto;
+       }
+    }
+
+    .hero-menu img{
+        height: 394px;
+        object-fit: cover;
+    }
+
+    .restaurant-title {
+       justify-content: center;
+       gap: 24px;
+    }
+}
+
+.btn-menu {
+    width: 73.27%;
+    margin: 0 auto;
+}

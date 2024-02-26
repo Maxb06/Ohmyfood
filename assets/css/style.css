@@ -467,4 +467,31 @@ h4 {
   width: 186px;
 }
 
+@media screen and (min-width: 1024px) {
+  .restaurant-menu {
+    width: 73.27%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -50px;
+  }
+  .restaurant-menu article {
+    width: 62.5%;
+    margin: 0 auto;
+  }
+  .hero-menu img {
+    height: 394px;
+    object-fit: cover;
+  }
+  .restaurant-title {
+    justify-content: center;
+    gap: 24px;
+  }
+}
+.btn-menu {
+  width: 73.27%;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=style.css.map */
