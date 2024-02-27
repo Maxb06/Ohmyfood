@@ -2,15 +2,4 @@
 // This file contains all application-wide Sass mixins.
 // ----------------------------------------------------------------------------
 
-// Mixin for Breakpoints responsive screen
-@mixin respond-to($breakpoint) {
-    @if $breakpoint == 'medium' {
-      @media screen and (min-width: map-get($breakpoints, 'medium')) {
-        @content;
-      }
-    } @else if $breakpoint == 'large' {
-      @media screen and (min-width: map-get($breakpoints, 'large')) {
-        @content;
-      }
-    }
-  }
+

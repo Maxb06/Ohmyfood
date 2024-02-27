@@ -25,6 +25,11 @@ body {
 // Main content container
 .main-container {
     width: 100%;
+
+    @media (min-width: map-get($breakpoints, 'large')) {
+            max-width: $max-width;
+            margin: 0 auto;
+    }
 }
 
 // Basic styles for links

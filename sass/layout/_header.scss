@@ -10,6 +10,12 @@
     position: relative;
     text-align: center;
 
+    @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
+        height: 96px; 
+        align-items: center;
+        padding: 0;   
+    }
+
     i {
         position: absolute;
         left: 5%;

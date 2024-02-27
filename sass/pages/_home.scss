@@ -53,6 +53,11 @@
         font-size: 24px;
         margin-top: 39.5px;
         margin-bottom: 0;
+
+        @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
+            font-size: 40px;
+            width: 100%;
+        }
     }
 
     h2 {
@@ -62,40 +67,66 @@
         font-weight: 300;
         text-align: center;
         margin-top: 0;
-        margin-bottom: 27px;   
+        margin-bottom: 27px; 
+        
+        @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
+            width: 100%;
+        }
     }
 }
 
 .functioning-section {
     padding: 0 20px 68px 20px;
 
-    h3 {
+    @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
+        display: flex;
+        padding: 0 180px 50px 180px;
+    }
+
+    & h3 {
         margin-top: 48px;
         margin-bottom: 26px;
+
+        @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
+            margin-top: 50px;
+            margin-bottom: 25px;
+        }
     }
 }
 
-.tutoriel ol {
-    padding-left: 0;
+.tutoriel {
+    width: 100%;
+
+    ol {
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
     margin: 0;
     gap: 25px;
-    padding-left: 10px;
 
-    i {
+    @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
+        display: flex;
+        flex-direction: row; 
+        gap: 36px; 
+    }
+
+    & i {
         color: #7E7E7E;
         margin-right: 23px;
         margin-left: 23px;
     }
 
-    li {
-        background-color: $section-color;
-        -webkit-box-shadow: 0px 4px 15px 0px #00000026; 
+    & li {
+        background-color: $section-color; 
         box-shadow: 0px 4px 15px 0px #00000026;
         border-radius: 20px;
         padding: 29px 0 28px 0;
         font-weight: 500;
+
+            @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
+                width: 322.49px;    
+            }   
+        }
     }
 }
 
@@ -108,24 +139,51 @@
     padding: 4px 8px;
     position: relative;
     left: -10px;
+}  
+
+#store i {
+    color: $color-primary;
 }
 
 .restaurants-section {
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-bottom: 48px;
+    padding: 0 17px 48px 17px;
     background-color: $section-color;
+
+    @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
+        padding-left: 180px;
+        padding-right: 180px;
+        padding-bottom: 30px;
+    }
 
         h3 {
             padding-top: 48px;
             margin-top: 0;
             margin-bottom: 28px;
+
+            @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
+                padding-top: 30px;
+        }
     }
 }
 
 .restaurants-cards {
     display: flex;
     flex-direction: column;
+
+    @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
+        width: 100%;
+        
+        .first-raw,
+        .second-raw {
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+        }
+        
+        .first-raw {
+            margin-bottom: 50px;
+        }
+    }
 }
 
 .card {
@@ -134,13 +192,17 @@
     box-shadow: 0px 4px 15px 0px #0000001A;
     margin-bottom: 18px;
 
-   img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-   }
+    @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
+        margin: 0;
+    }  
+                                                           
+    img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
 }
 
 .card-sticker {
@@ -184,84 +246,3 @@
     margin-right: 25px; 
     font-size: 1.5em;
 }
-
-
-/********* RESPONSIVE DESKTOP ***********/
-
-@include respond-to('large') {
-    .main-container {
-        max-width: $max-width;
-        margin: 0 auto;
-    }
-
-    .hero-text h1,
-    .hero-text h2 {
-        width: 100%;
-    }
-
-    .hero-text h1 {
-        font-size: 40px;
-    }
-
-    .functioning-section {
-        display: flex;
-        padding-left: 180px;
-        padding-right: 180px;
-        
-        ol {
-            display: flex;
-            flex-direction: row; 
-            justify-content: space-between; 
-            padding-left: 0; 
-        }
-    }
-
-    .tutoriel {
-        width: 100%;
-
-        ol li {
-            width: 322px;
-            text-align: left;
-            margin-left: 9px;
-        }
-
-        ol i {
-            margin-left: 20px;
-        }
-    }
-
-    .number {
-        left: -10px;
-    }
-
-    .restaurants-section {
-        padding-left: 180px;
-        padding-right: 180px;
-        padding-bottom: 30px;
-
-        h3 {
-            padding-top: 30px;
-        }
-    }
-
-    .restaurants-cards {
-        width: 100%;
-        .first-raw {
-            display: flex;
-            flex-direction: row;
-            gap: 100px;
-            margin-bottom: 50px;
-        }
-        .second-raw {
-            display: flex;
-            flex-direction: row;
-            gap: 100px;
-        }
-    }
-
-    .card {
-        width: 490px;
-        margin: 0;
-    }
-}
-    
