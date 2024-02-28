@@ -26,6 +26,8 @@
         margin: 0 auto;
         position: relative;
         margin-top: -30px;
+        padding-bottom: 0;
+
     }
         & article {
             padding-left: 13px;
@@ -34,25 +36,32 @@
             @media (min-width: map-get($breakpoints, 'large')) {   // Responsive desktop
             width: 62.5%;
             margin: 0 auto;
+            margin-bottom: 28px;
         }
     }
 }
 
-.restaurant-title {
+.restaurant-title {          // MISE EN FORME COEUR ET TITRE !!!!!!!!!!!!!
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 32px 17px 0 17px;
     margin-bottom: 40px;
 
     @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
         justify-content: center;
-       gap: 24px;
+        gap: 24px;
+        padding: 51px 0 0 0;
+    }
+
+    & .heart-icon {
+       margin-right: 24px; 
     }
 }
 
 .menu-btn {
     border: none;
-    background-color: $section-color;
+    background-color: $section-color;    // COEUR  !!!!!!!!!!!!!!!!!!!!
     font-size: 1.5rem;
 }
 
@@ -75,6 +84,7 @@
 
     @media (min-width: map-get($breakpoints, 'large')) {        // Responsive desktop
             width: 10%;
+            margin-top: 0;
     }
 }
 

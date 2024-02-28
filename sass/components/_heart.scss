@@ -2,3 +2,23 @@
 // This file contains all styles related to the heart animation component.
 // -----------------------------------------------------------------------------
 
+// Styles coeurs et animation
+.heart-icon {
+    cursor: pointer;
+
+    i {
+        font-size: 24px;
+        color: white;
+        transition: all 200ms ease-in-out;
+        -webkit-text-stroke: 1px black;
+    }
+}
+
+// Coeur coché 
+.heart-checkbox:checked + .heart-icon i {
+    color: transparent;
+    background: linear-gradient(to top, #ff79da, #9356dc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 0px #9356dc;
+}
