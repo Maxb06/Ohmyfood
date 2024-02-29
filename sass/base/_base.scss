@@ -23,7 +23,8 @@ body {
 }
 
 // Main content container
-.main-container {
+.main-container,
+.menu-container {
     width: 100%;
 
     @media (min-width: map-get($breakpoints, 'large')) {
