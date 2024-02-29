@@ -2,6 +2,7 @@
 // This file contains all styles related to the home page animation loader.
 // -----------------------------------------------------------------------------
 
+// Loader Home Page
 .main-container {
     opacity: 0;
     animation: fade-in 500ms cubic-bezier(0.19, 1, 0.22, 1) 1000ms forwards;
@@ -57,4 +58,17 @@
     }
  }
 
- 
+// Fade-in menu restaurant
+.restaurant-menu article {
+   opacity: 0;
+   animation: fade-in-bottom 1000ms ease-in-out forwards;
+}
+
+ @keyframes fade-in-bottom {
+   0% {
+     opacity: 0;
+     transform: translateY(150px); }
+   100% {
+     opacity: 1;
+     transform: translateY(0); } 
+}
