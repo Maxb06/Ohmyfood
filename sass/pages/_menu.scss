@@ -41,7 +41,7 @@
     }
 }
 
-.restaurant-title {          // MISE EN FORME COEUR ET TITRE !!!!!!!!!!!!!
+.restaurant-title {        
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,12 +57,6 @@
     & .heart-icon {
        margin-right: 24px; 
     }
-}
-
-.menu-btn {
-    border: none;
-    background-color: $section-color;    // COEUR  !!!!!!!!!!!!!!!!!!!!
-    font-size: 1.5rem;
 }
 
 .main-title {
@@ -96,18 +90,25 @@
     background-color: $background-color;
     border-radius: 15px;
     box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
-    
+    position: relative;
+
     h3 {
         margin: 0;
         margin-bottom: 5px;
         font-size: 18px;
         font-weight: 500;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
+
     p {
         margin: 0;
         font-size: 15px;
         font-weight: 300;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
+
     .menu__price {
         color: $footer-color;
         display: flex;
@@ -115,6 +116,7 @@
     }
 }
 
+// Styles bouton bas de page
 .btn-menu {
     display: flex;
     justify-content: center;

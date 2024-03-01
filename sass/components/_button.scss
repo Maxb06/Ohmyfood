@@ -2,6 +2,7 @@
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
 
+// Styles généraux boutons page d'accueil & menu
 .hero-btn {
     border-radius: 25px;
     padding: 15px 20px;
@@ -12,4 +13,58 @@
     box-shadow: 0px 4px 10px 0px #00000040;
     text-align: center;
     height: 50px;
+
+    &:hover {
+        background: linear-gradient(#ff8de2, #a67ee5);
+        box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.45);
+        transition: 300ms ease-out, box-shadow 300ms ease-out;
+    }
 }
+
+// Select Button animation menu
+
+.card-menu .menu__price {
+    transition: transform 350ms ease-in-out;
+}
+ 
+.card-menu:hover .menu__price {
+    transform: translateX(-60px);
+}
+ 
+.menu-check {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color-tertiary;
+    overflow: hidden;
+    transition: all 350ms ease-in-out;   
+}
+ 
+.card-menu:hover .menu-check {
+    width: 60px;
+    border-radius: 0 15px 15px 0;
+}
+
+.card-menu:hover .menu__title {   
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-wrap: nowrap;
+    white-space: nowrap; 
+}
+
+.menu-check i {
+    color: $color-tertiary;
+    background-color: white;
+    border-radius: 100%;
+    font-size: 15px;
+    padding: 5px;
+}
+ 
+
+

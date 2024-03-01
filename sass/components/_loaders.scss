@@ -23,7 +23,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: #add8e6;
+    background-color: $color-tertiary;
     position: fixed;
     top: 0;
     left: 0;
@@ -42,7 +42,7 @@
 
 .loader {
     border: 16px solid #f3f3f3;
-    border-top: 16px solid #3498db;
+    border-top: 16px solid $color-primary;
     border-radius: 50%;
     width: 100px;
     height: 100px;

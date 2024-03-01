@@ -31,5 +31,9 @@
 }
 
 .logo img {
-    width: 43.2%;
+    width: 43.5%;
+
+    @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
+        width: 51%;
+    }
 }
