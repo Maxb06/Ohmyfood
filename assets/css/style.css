@@ -448,11 +448,16 @@ h4 {
   border-radius: 20px;
   padding: 29px 0 28px 0;
   font-weight: 500;
+  display: flex;
+  align-items: center;
 }
 @media (min-width: 1024px) {
   .tutoriel ol li {
     width: 322.49px;
   }
+}
+.tutoriel ol p {
+  margin: 0;
 }
 
 .number {
@@ -563,7 +568,7 @@ h4 {
 }
 .card-txt .card-subtitle {
   margin-top: 5px;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .card-content {

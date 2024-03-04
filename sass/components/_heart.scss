@@ -2,7 +2,7 @@
 // This file contains all styles related to the heart animation component.
 // -----------------------------------------------------------------------------
 
-// Styles coeurs et animation
+// Heart styles & animations
 .heart-icon {
     cursor: pointer;
 
@@ -29,7 +29,7 @@
     background: linear-gradient(to top, #ff79da, #9356dc);
 }
 
-// Coeur coché 
+// Checked heart
 .heart-checkbox:checked + .heart-icon i {
     color: transparent;
     background: linear-gradient(to top, #ff79da, #9356dc);

@@ -5,8 +5,8 @@
 .hero-menu img {
     height: 275px;
     width: 100%;
-
-    @media (min-width: map-get($breakpoints, 'large')) {   // Responsive desktop
+    // Responsive desktop
+    @media (min-width: map-get($breakpoints, 'large')) {   
         height: 394px;
         object-fit: cover; 
     }
@@ -18,8 +18,8 @@
     position: relative;
     margin-top: -50px;
     padding-bottom: 28px;
-
-    @media (min-width: map-get($breakpoints, 'large')) {   // Responsive desktop
+    // Responsive desktop
+    @media (min-width: map-get($breakpoints, 'large')) {   
         width: 73.27%;
         display: flex;
         flex-direction: column;
@@ -32,8 +32,8 @@
         & article {
             padding-left: 13px;
             padding-right: 13px;
-
-            @media (min-width: map-get($breakpoints, 'large')) {   // Responsive desktop
+            // Responsive desktop
+            @media (min-width: map-get($breakpoints, 'large')) {   
             width: 62.5%;
             margin: 0 auto;
             margin-bottom: 28px;
@@ -47,8 +47,8 @@
     align-items: center;
     padding: 32px 17px 0 17px;
     margin-bottom: 40px;
-
-    @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
+    // Responsive desktop
+    @media (min-width: map-get($breakpoints, 'large')) {     
         justify-content: center;
         gap: 24px;
         padding: 51px 0 0 0;
@@ -75,8 +75,8 @@
     width: 18%;
     padding-bottom: 6px;
     text-transform: uppercase;
-
-    @media (min-width: map-get($breakpoints, 'large')) {        // Responsive desktop
+    // Responsive desktop
+    @media (min-width: map-get($breakpoints, 'large')) {        
             width: 10%;
             margin-top: 0;
     }
@@ -122,8 +122,8 @@
     justify-content: center;
     padding-bottom: 40px;
     background-color: $section-color;
-
-    @media (min-width: map-get($breakpoints, 'large')) {      // Responsive desktop
+    // Responsive desktop
+    @media (min-width: map-get($breakpoints, 'large')) {      
         width: 73.27%;
         margin: 0 auto;
     }

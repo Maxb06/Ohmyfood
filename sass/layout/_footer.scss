@@ -5,8 +5,8 @@
 .footer-section {
     background-color: $footer-color;
     padding: 22px 25px;
-
-    @media (min-width: map-get($breakpoints, 'large')) {      // Responsive desktop
+    // Responsive desktop
+    @media (min-width: map-get($breakpoints, 'large')) {      
         display: flex;
         align-items: end;
         height: 114px;
@@ -21,8 +21,8 @@
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 400;
-
-    @media (min-width: map-get($breakpoints, 'large')) {      // Responsive desktop
+    // Responsive desktop
+    @media (min-width: map-get($breakpoints, 'large')) {      
         margin-right: 40px;
         margin-left: 85px;
         margin-bottom: 0;
@@ -35,8 +35,8 @@
     flex-direction: column;
     gap: 7px;
     margin-bottom: 0;
-
-    @media (min-width: map-get($breakpoints, 'large')) {     // Responsive desktop
+    // Responsive desktop
+    @media (min-width: map-get($breakpoints, 'large')) {     
         flex-direction: row;
         gap: 15px;
     }
@@ -54,8 +54,8 @@
 .partner i {
     margin-right: 5px;
 }
-
-@media (min-width: map-get($breakpoints, 'large')) {   // Responsive desktop
+// Responsive desktop
+@media (min-width: map-get($breakpoints, 'large')) {   
     .mentions-legales {
         margin-left: 30px;
     }
