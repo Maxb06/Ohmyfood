@@ -15,13 +15,14 @@
         box-shadow: none;
     }
 
-    i {
+        i {
         margin-right: -25px;
         margin-left: 45px;
         z-index: 2;
+        color: $footer-color;
         }
 
-    input {
+        input {
         background-color: $header-color;
         border: none;
         font-size: 16px;

@@ -37,7 +37,7 @@ input {
 }
 
 input::placeholder {
-  color: black;
+  color: #353535;
 }
 
 h3 {
@@ -337,6 +337,7 @@ h4 {
   margin-right: -25px;
   margin-left: 45px;
   z-index: 2;
+  color: #353535;
 }
 .hero-location input {
   background-color: #EAEAEA;
