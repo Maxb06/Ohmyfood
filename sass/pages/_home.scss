@@ -103,6 +103,13 @@
     }
 }
 
+// Responsive Tab
+@media screen and (max-width: 1260px) {
+    .functioning-section {
+        padding: 0 60px 50px 60px;
+    }
+}
+
 .tutoriel {
     width: 100%;
 
@@ -178,6 +185,13 @@
             @media (min-width: map-get($breakpoints, 'large')) {     
                 padding-top: 30px;
         }
+    }
+}
+
+// Responsive Tab
+@media screen and (max-width: 1260px) {
+    .restaurants-section {
+        padding: 0 60px 50px 60px;
     }
 }
 

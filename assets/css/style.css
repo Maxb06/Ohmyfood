@@ -233,9 +233,8 @@ h4 {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    -webkit-text-stroke: 0px #9356DC;
-    transform: scale(1.1);
-    transition: all 800ms ease-in-out;
+    -webkit-text-stroke: 1px #9356dc;
+    transition: all 750ms ease-in-out;
   }
 }
 
@@ -248,8 +247,7 @@ h4 {
   background: linear-gradient(to top, #ff79da, #9356dc);
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-stroke: 0px #9356dc;
-  transform: scale(1.1);
+  -webkit-text-stroke: 1px #9356dc;
 }
 
 .main-container {
@@ -304,9 +302,17 @@ h4 {
     transform: rotate(360deg);
   }
 }
-.restaurant-menu article {
+.restaurant-menu .part1 {
   opacity: 0;
   animation: fade-in-bottom 1000ms ease-in-out forwards;
+}
+.restaurant-menu .part2 {
+  opacity: 0;
+  animation: fade-in-bottom 1500ms ease-in-out forwards;
+}
+.restaurant-menu .part3 {
+  opacity: 0;
+  animation: fade-in-bottom 2000ms ease-in-out forwards;
 }
 
 @keyframes fade-in-bottom {
@@ -421,6 +427,11 @@ h4 {
   }
 }
 
+@media screen and (max-width: 1260px) {
+  .functioning-section {
+    padding: 0 60px 50px 60px;
+  }
+}
 .tutoriel {
   width: 100%;
 }
@@ -498,6 +509,11 @@ h4 {
   }
 }
 
+@media screen and (max-width: 1260px) {
+  .restaurants-section {
+    padding: 0 60px 50px 60px;
+  }
+}
 .restaurants-cards {
   display: flex;
   flex-direction: column;

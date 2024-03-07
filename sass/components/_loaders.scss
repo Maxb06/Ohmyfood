@@ -58,13 +58,26 @@
     }
  }
 
-// Fade-in menu restaurant
-.restaurant-menu article {
-   opacity: 0;
-   animation: fade-in-bottom 1000ms ease-in-out forwards;
+// Fade-in menu restaurant 
+
+.restaurant-menu {
+   .part1 {
+      opacity: 0;
+      animation: fade-in-bottom 1000ms ease-in-out forwards;
+   }
+
+   .part2 {
+      opacity: 0;
+      animation: fade-in-bottom 1500ms ease-in-out forwards;
+   }
+
+   .part3 {
+      opacity: 0;
+      animation: fade-in-bottom 2000ms ease-in-out forwards;
+   }
 }
 
- @keyframes fade-in-bottom {
+@keyframes fade-in-bottom {
    0% {
      opacity: 0;
      transform: translateY(150px); }
@@ -72,3 +85,4 @@
      opacity: 1;
      transform: translateY(0); } 
 }
+

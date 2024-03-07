@@ -17,9 +17,8 @@
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
-            -webkit-text-stroke: 0px $color-primary;
-            transform: scale(1.1);
-            transition: all 800ms ease-in-out;
+            -webkit-text-stroke: 1px #9356dc;
+            transition: all 750ms ease-in-out;
             }   
         }
     }
@@ -35,6 +34,5 @@
     background: linear-gradient(to top, #ff79da, #9356dc);
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-stroke: 0px #9356dc;
-    transform: scale(1.1);
+    -webkit-text-stroke: 1px #9356dc;
 }
