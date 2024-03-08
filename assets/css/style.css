@@ -413,7 +413,7 @@ h4 {
 @media (min-width: 1024px) {
   .functioning-section {
     display: flex;
-    padding: 0 180px 50px 180px;
+    padding: 0 60px 50px 60px;
   }
 }
 .functioning-section h3 {
@@ -427,9 +427,9 @@ h4 {
   }
 }
 
-@media screen and (max-width: 1260px) {
+@media screen and (min-width: 1250px) {
   .functioning-section {
-    padding: 0 60px 50px 60px;
+    padding: 0 180px 50px 180px;
   }
 }
 .tutoriel {
@@ -493,9 +493,7 @@ h4 {
 }
 @media (min-width: 1024px) {
   .restaurants-section {
-    padding-left: 180px;
-    padding-right: 180px;
-    padding-bottom: 30px;
+    padding: 0 60px 50px 60px;
   }
 }
 .restaurants-section h3 {
@@ -509,9 +507,11 @@ h4 {
   }
 }
 
-@media screen and (max-width: 1260px) {
+@media screen and (min-width: 1250px) {
   .restaurants-section {
-    padding: 0 60px 50px 60px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 30px;
   }
 }
 .restaurants-cards {
