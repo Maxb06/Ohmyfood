@@ -238,10 +238,6 @@ h4 {
   }
 }
 
-.heart-icon::after + i:hover {
-  background: linear-gradient(to top, #ff79da, #9356dc);
-}
-
 .heart-checkbox:checked + .heart-icon i {
   color: transparent;
   background: linear-gradient(to top, #ff79da, #9356dc);

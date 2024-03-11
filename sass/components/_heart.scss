@@ -24,10 +24,6 @@
     }
 }
 
-.heart-icon::after + i:hover {
-    background: linear-gradient(to top, #ff79da, #9356dc);
-}
-
 // Checked heart
 .heart-checkbox:checked + .heart-icon i {
     color: transparent;
